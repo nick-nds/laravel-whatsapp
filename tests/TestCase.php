@@ -2,9 +2,9 @@
 
 namespace Bistrokeep\Whatsapp\Tests;
 
+use Bistrokeep\Whatsapp\WhatsappServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bistrokeep\Whatsapp\WhatsappServiceProvider;
 
 class TestCase extends Orchestra
 {

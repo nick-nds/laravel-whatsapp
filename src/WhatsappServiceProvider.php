@@ -2,9 +2,9 @@
 
 namespace Bistrokeep\Whatsapp;
 
+use Bistrokeep\Whatsapp\Commands\WhatsappCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bistrokeep\Whatsapp\Commands\WhatsappCommand;
 
 class WhatsappServiceProvider extends PackageServiceProvider
 {
